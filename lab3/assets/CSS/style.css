@@ -1,0 +1,55 @@
+@import "templatecolours.jpg";
+
+body{
+    max-width:960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body {
+    background-color: red;
+}
+    header{
+        background-color: green;
+    }
+
+    main{
+        background-color: blue;
+    }
+
+    section{
+        background-color: orange;
+    }
+
+    aside{
+        background-color: yellow;
+    }
+
+    article{
+        background-color: purple;
+    }
+
+
+    /*NAVIGATION BAR CSS*/
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav>ul>li{
+    float: left;
+}
+
+nav>ul>li {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decorator: none;
+}
+li a:hover {
+    colour: #363636;
+}
